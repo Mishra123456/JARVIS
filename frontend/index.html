@@ -22,27 +22,6 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <section id="oval" class="mb-4" hidden>
-    </section>
-    <section id="SiriWave" class="mb-4" hidden>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
-                            <div class="">
-                                <p class="text-start text-light mb-4 siri-message" style="font-size: 28px;">Hello, I am
-                                    J.A.R.V.I.S</p>
-                                <div id="siri-container"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-    </section>
-
-  </div>
 
     <div class="col-md-1"></div>
     <div class="col-md-10">
@@ -61,7 +40,29 @@
           </div>
         </div>
       </div>
-      <h5 class="text-light text-center ask-me tlt">Ask Me Anything</h5>
+
+
+  <div class="container">
+    <section id="oval" class="mb-4" ></section>
+    </section>
+    <section id="SiriWave" class="mb-4" hidden >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-center align-items-center" style="min-height: 420px; padding-top: 40px;">
+                            <div class="">
+                                <p class="text-start text-light mb-4 siri-message" style="font-size: 28px;">Hello, I am J.A.R.V.I.S</p>
+                                <div id="siri-container"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+  </div>
+      <h5 class="text-light text-center ask-me tlt">YOUR QUERIES MY HEADACHE</h5>
       <div class="col-md-12 mt-4 pt-4">
                         <div class="text-center">
                             <div id="TextInput" class="d-flex">
@@ -94,6 +95,9 @@
 
   <!-- Siri Wave-->      
   <script src="https://unpkg.com/siriwave/dist/siriwave.umd.min.js"></script>
+  
+  <script type="text/javascript" src="/eel.js"></script>
+
 
   <!-- Lettering.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
@@ -107,5 +111,6 @@
   <!-- Custom Scripts -->
   <script src="script.js"></script>
   <script src="main.js"></script>
+  <script src="controller.js"></script>
 </body>
 </html>

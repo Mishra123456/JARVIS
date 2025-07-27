@@ -206,5 +206,19 @@ canvas#canvasOne {
 .ask-me {
   margin-top: 20px;
 }
+#SiriWave {
+  position: relative;
+  z-index: 1;
+}
 
+#JarvisHood {
+  position: relative;
+  z-index: 10;
+}
 
+canvas#canvasOne {
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  transform: translateX(-50%);
+}
